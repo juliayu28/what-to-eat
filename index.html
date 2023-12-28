@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <button onclick="generateFoodIdea()">Generate meat idea</button>
+        <p id="meat"></p>
+        <script>
+            function generateFoodIdea() {
+                const dishes = ["Boiled pork belly", "Hardboiled eggs", "Spicy korean fish cake"];
+                document.getElementById("meat").innerHTML = dishes[(Math.floor(Math.random() * dishes.length))];
+            }
+        </script>
+    </body>
+</html>
