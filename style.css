@@ -1,10 +1,13 @@
 button {
     background-color: #8DCC92;  
     font-size: 48px;
-    border-radius: 3px; 
+    border-radius: 5px; 
     color: white;
-    padding: 18px;
-    border-color: white;
+    padding: 25px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font
 }
 
 p {
