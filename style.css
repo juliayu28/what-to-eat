@@ -2,8 +2,15 @@ button {
     background-color: #8DCC92;  
     font-size: 48px;
     border-radius: 3px; 
+    color: white;
+    padding: 18px;
+    border-color: white;
 }
 
 p {
     font-size: 48px;
+}
+
+button:hover {
+    background-color: #84BF89;
 }
