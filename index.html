@@ -4,26 +4,29 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <button onclick="generateMeatIdea()">Generate meat idea</button>
+        <button onclick="generateMainOrMeatIdea()">Generate main dish or meat idea</button>
         <p id="meat"></p>
         <button onclick="generateVeggieIdea()">Generate veggie idea</button>
         <p id="veggie"></p>
         <button onclick="generateCarbIdea()">Generate carb idea</button>
         <p id="carb"></p>
         <script>
-            function generateMeatIdea() {
+            function generateMainOrMeatIdea() {
                 const meats = ["Boiled pork belly", "Marinated hardboiled eggs", "Spicy korean fish cake",
                                 "Hainan chicken", "Baked spam", "Miso butter salmon",
-                                "Baked chicken", "Baked meatballs", "Fried egg", "Pork chops", "Tomato egg",
+                                "Baked meatballs", "Fried egg", "Pork chops", "Tomato egg", "Yuzu wings",
                                 "Fried tofu", "Fried dumplings", "Spicy braised tofu", "Pan seared chicken", "Steamed fish",
                                 "Ochazuke", "Teriyaki salmon", "Kimchi jjigae", "Dakbokkeumtang", "Japanese curry",
-                                "Garlic miso wings", "Buffalo wings"];
+                                "Garlic miso wings", "Buffalo wings", "Teriyaki tofu", "Sauteed pork belly", "Butter chicken",
+                                "Chicken soup", "Lemon pepper chicken", "Thai basil chicken", "Salmon seaweed wraps", "Asian style spareribs",
+                                "Taiwanese popcorn tofu", "Spicy cilantro chicken", "3 cup chicken", "Yuzu glazed salmon", "Flatbread pizza"];
                 document.getElementById("meat").innerHTML = meats[(Math.floor(Math.random() * meats.length))];
             }
             function generateVeggieIdea() {
                 const veggies = ["Kimchi", "Roasted brussel sprouts", "Roasted potatoes", "Roasted sweet potatoes", "Miso eggplant",
                                  "Garlic snow peas", "Garlic green beans", "Sauteed mushrooms with butter", "Roasted carrots", "Korean seaweed soup",
-                                 "Miso soup"];
+                                 "Miso soup", "Sliced cucumbers", "Roasted broccoli", "Steamed broccoli", "Roasted asparagus", "Sauteed spinach", "Edamame",
+                                 "Smashed potatoes", "Roasted tomatoes"];
                 document.getElementById("veggie").innerHTML = veggies[(Math.floor(Math.random() * veggies.length))];
             }
             function generateCarbIdea() {
