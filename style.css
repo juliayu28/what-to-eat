@@ -1,5 +1,4 @@
 button {
-    background-color: #8DCC92;  
     font-size: 48px;
     border-radius: 5px; 
     color: white;
@@ -16,4 +15,20 @@ p {
 
 button:hover {
     background-color: #84BF89;
+}
+
+body {
+    background-color: #d4a373;
+}
+
+#meat {
+    background-color: #ccd5ae;
+}
+
+#veggie {
+    background-color: #e9edc9;
+}
+
+#carb {
+    background-color: #fefae0;
 }
