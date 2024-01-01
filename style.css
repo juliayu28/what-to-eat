@@ -1,16 +1,16 @@
 button {
     font-size: 48px;
     border-radius: 5px; 
-    color: white;
+    color: #fefae0;
     padding: 25px;
     border: none;
     cursor: pointer;
     text-align: center;
-    font
 }
 
 p {
     font-size: 48px;
+    color: gray;
 }
 
 button:hover {
@@ -18,17 +18,18 @@ button:hover {
 }
 
 body {
-    background-color: #d4a373;
+    background-color: #fefae0;
 }
 
-#meat {
+#meatbutton {
     background-color: #ccd5ae;
 }
 
-#veggie {
+#veggiebutton {
     background-color: #e9edc9;
+    color: gray;
 }
 
-#carb {
-    background-color: #fefae0;
+#carbbutton {
+    background-color: #d4a373;
 }
