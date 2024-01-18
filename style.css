@@ -10,27 +10,50 @@ button {
 
 p {
     font-size: 48px;
-    color: gray;
-}
-
-button:hover {
-    background-color: #84BF89;
+    color: #e9eed7;
 }
 
 body {
-    background-color: #fefae0;
+    background-color: #d0d3b7;
     padding: 25px;
 }
 
 #meatbutton {
-    background-color: #ccd5ae;
+    background-color:#A4AC86;
+}
+
+#meatbutton:hover {
+    background-color:#929978;
 }
 
 #veggiebutton {
-    background-color: #e9edc9;
-    color: gray;
+    background-color: #656D4A;
+}
+
+#veggiebutton:hover {
+    background-color: #5a6142;
 }
 
 #carbbutton {
-    background-color: #d4a373;
+    background-color: #414833;
+}
+
+#carbbutton:hover {
+    background-color: #3a412e;
+}
+
+#snackbutton {
+    background-color: #A68A64;
+}
+
+#snackbutton:hover {
+    background-color: #9b815c;
+}
+
+#drinkbutton {
+    background-color: #936639;
+}
+
+#drinkbutton:hover {
+    background-color: #815931;
 }
