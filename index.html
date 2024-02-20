@@ -23,27 +23,29 @@
                                 "Ochazuke", "Teriyaki salmon", "Kimchi jjigae", "Dakbokkeumtang", "Japanese curry",
                                 "Garlic miso wings", "Buffalo wings", "Sauteed pork belly", "Butter chicken", "Curried chickpeas",
                                 "Chicken soup", "Lemon pepper chicken", "Thai basil chicken", "Salmon seaweed wraps", "Asian style spareribs",
-                                "Taiwanese popcorn tofu", "Soy garlic chicken", "3 cup chicken", "Yuzu glazed salmon", "Flatbread pizza",
-                                "Ginger pork belly", "Honey sriracha sauce chicken/pork belly/shrimp"];
+                                "Soy garlic chicken", "3 cup chicken", "Yuzu glazed salmon", "Flatbread pizza",
+                                "Ginger pork belly", "Honey sriracha sauce chicken/pork belly/shrimp", "Chipotle taco rice bowl", "Chicken piccata",
+                                "Chimichurri salmon/chicken", "Tom yum ramen"];
                 document.getElementById("meat").innerHTML = meats[(Math.floor(Math.random() * meats.length))];
             }
             function generateVeggieIdea() {
-                const veggies = ["Kimchi", "Roasted brussel sprouts", "Roasted potatoes", "Roasted sweet potatoes", "Miso eggplant",
+                const veggies = ["Kimchi", "Roasted brussel sprouts", "Roasted potatoes", "Roasted sweet potatoes with cinnamon", "Miso eggplant",
                                  "Garlic snow peas", "Garlic green beans", "Sauteed mushrooms with butter", "Roasted carrots", "Korean seaweed soup",
-                                 "Miso soup", "Sliced cucumbers", "Roasted broccoli", "Boiled sesame broccoli", "Roasted asparagus", "Sauteed spinach", "Edamame",
+                                 "Miso soup", "Sliced cucumbers", "Roasted broccoli with lemon drizzle", "Boiled sesame broccoli", "Roasted asparagus", "Sauteed spinach", "Edamame",
                                  "Smashed potatoes", "Roasted tomatoes", "Garlic lemony sugar snap peas", "Boiled corn", "Sauteed onions",
                                  "Roasted zucchini with some cheese", "Pan fried baby corn and snow peas"];
                 document.getElementById("veggie").innerHTML = veggies[(Math.floor(Math.random() * veggies.length))];
             }
             function generateCarbIdea() {
                 const carbs = ["Steamed bun", "Mac and cheese", "White rice", "Rice with furikake", "Rice with edamame", "Pasta", "Korean pancake",
-                               "Green onion pancake", "Chili oil noodles", "Garlic bread", "Brown rice", "Congee"];
+                               "Green onion pancake", "Chili oil noodles", "Garlic bread", "Brown rice", "Congee", "Quinoa", "Couscous"];
                 document.getElementById("carb").innerHTML = carbs[(Math.floor(Math.random() * carbs.length))];
             }
             function generateSnackIdea() {
                 const snacks = ["Avocado toast", "Avocado toast with fried egg", "Avocado toast with bacon slices", "Oatmeal with banana", "Oatmeal with raspberries",
                                 "Oatmeal bars", "Chocolate bark", "Trail mix with white chocolate", "Yogurt and nuts", "Chia seed pudding with berries",
-                                "Coconut milk chia seed pudding with mango", "Pancakes with fruit", "Fried eggs with spinach and bacon/sausage/potatoes"];
+                                "Coconut milk chia seed pudding with mango", "Pancakes with fruit", "Fried eggs with spinach and bacon/sausage/potatoes",
+                                "Toast with fried egg and ham/cream cheese", "Yogurt parfait", "Chocolate covered yogurt bites"];
                 document.getElementById("snack").innerHTML = snacks[(Math.floor(Math.random() * snacks.length))];
             }
             function generateDrinkIdea() {
