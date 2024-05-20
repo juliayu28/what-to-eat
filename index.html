@@ -16,41 +16,42 @@
         <p id="drink"></p>
         <script>
             function generateMainOrMeatIdea() {
-                const meats = ["Boiled pork belly with sauce", "Marinated hardboiled eggs", "Spicy korean fish cake",
-                                "Hainan chicken", "Baked spam", "Miso butter salmon",
-                                "Baked meatballs", "Fried egg", "Pork chops", "Tomato egg", "Yuzu wings",
+                const meats =  ["Boiled pork belly with sauce", "Marinated hardboiled eggs", "Birria tacos",
+                                "Hainan chicken", "Baked spam", "Miso glazed salmon",
+                                "Baked meatballs", "Fried egg", "Garlic butter pork chops", "Tomato egg", "Oxtail soup"
                                 "Fried tofu", "Fried dumplings", "Spicy braised tofu", 
                                 "Ochazuke", "Teriyaki salmon", "Kimchi jjigae", "Dakbokkeumtang", "Japanese curry",
-                                "Garlic miso wings", "Buffalo wings", "Sauteed pork belly", "Butter chicken", "Curried chickpeas",
-                                "Chicken soup", "Lemon pepper chicken", "Thai basil chicken", "Salmon seaweed wraps", "Asian style spareribs",
-                                "Soy garlic chicken", "3 cup chicken", "Yuzu glazed salmon", "Flatbread pizza",
+                                "Buffalo wings", "Sutadon", "Butter chicken", "Chickpea curry", "Butadon",
+                                "Chicken soup", "Thai basil chicken", "Salmon seaweed wraps", "Asian style spareribs", "Char siu",
+                                "Soy garlic chicken", "3 cup chicken", "Yuzu glazed salmon", "French bread pizza", "Thai red curry",
                                 "Ginger pork belly", "Honey sriracha sauce chicken/pork belly/shrimp", "Chipotle taco rice bowl", "Chicken piccata",
-                                "Chimichurri salmon/chicken", "Tom yum ramen"];
+                                "Tom yum ramen (use vegetable/chicken stock)", "Chicken pesto sandwich", "Ham/turkey, fried egg, spinach/arugula, cheese/pesto (optional) sandwich"];
                 document.getElementById("meat").innerHTML = meats[(Math.floor(Math.random() * meats.length))];
             }
             function generateVeggieIdea() {
-                const veggies = ["Kimchi", "Roasted brussel sprouts", "Roasted potatoes", "Roasted sweet potatoes with cinnamon", "Miso eggplant",
-                                 "Garlic snow peas", "Garlic green beans", "Sauteed mushrooms with butter", "Roasted carrots", "Korean seaweed soup",
+                const veggies = ["Kimchi", "Stir fried kimchi with onions", "Roasted brussels sprouts", "Roasted potatoes", "Roasted sweet potatoes with cinnamon", "Miso eggplant",
+                                 "Garlic snow peas", "Garlic green beans", "Sauteed mushrooms with butter", "Roasted carrots", "Korean seaweed soup with korean radish",
                                  "Miso soup", "Sliced cucumbers", "Roasted broccoli with lemon drizzle", "Boiled sesame broccoli", "Roasted asparagus", "Sauteed spinach", "Edamame",
-                                 "Smashed potatoes", "Roasted tomatoes", "Garlic lemony sugar snap peas", "Boiled corn", "Sauteed onions",
-                                 "Roasted zucchini with some cheese", "Pan fried baby corn and snow peas"];
+                                 "Smashed potatoes", "Roasted/boiled kabocha", "Garlic lemony sugar snap peas", "Boiled corn", "Sauteed onions",
+                                 "Roasted zucchini with some cheese", "Pan fried baby corn and snow peas", "Roasted onions", "Roasted cauliflower/broccoli with lemon tahini"];
                 document.getElementById("veggie").innerHTML = veggies[(Math.floor(Math.random() * veggies.length))];
             }
             function generateCarbIdea() {
                 const carbs = ["Steamed bun", "Mac and cheese", "White rice", "Rice with furikake", "Rice with edamame", "Pasta", "Korean pancake",
-                               "Green onion pancake", "Chili oil noodles", "Garlic bread", "Brown rice", "Congee", "Quinoa", "Couscous"];
+                               "Green onion pancake", "Chili oil noodles", "Garlic bread", "Brown rice", "Congee", "Quinoa", "Couscous", "Tortillas", "Naan"];
                 document.getElementById("carb").innerHTML = carbs[(Math.floor(Math.random() * carbs.length))];
             }
             function generateSnackIdea() {
                 const snacks = ["Avocado toast", "Avocado toast with fried egg", "Avocado toast with bacon slices", "Oatmeal with banana", "Oatmeal with raspberries",
                                 "Oatmeal bars", "Chocolate bark", "Trail mix with white chocolate", "Yogurt and nuts", "Chia seed pudding with berries",
                                 "Coconut milk chia seed pudding with mango", "Pancakes with fruit", "Fried eggs with spinach and bacon/sausage/potatoes",
-                                "Toast with fried egg and ham/cream cheese", "Yogurt parfait", "Chocolate covered yogurt bites"];
+                                "Toast with fried egg and ham/cream cheese", "Yogurt parfait", "Roasted chickpea snack", "Chocolate/flavored puffed rice cakes", "Oatmeal banana cookies",
+                                "Pancakes with mango and macadamia nuts", "Tres leches"];
                 document.getElementById("snack").innerHTML = snacks[(Math.floor(Math.random() * snacks.length))];
             }
             function generateDrinkIdea() {
-                const drinks = ["Mint tea", "Rooibois tea", "Oat milk with fruit jam", "Orange juice", "Mango, strawberry, blueberry smoothie", 
-                                "Mango banana smoothie", "Honey lemon ginger tea", "Triple berry smoothie"];
+                const drinks = ["Mint tea", "Rooibos tea", "Oat milk with fruit jam", "Orange juice", "Mango, strawberry, blueberry smoothie", 
+                                "Mango banana smoothie", "Honey lemon ginger tea", "Triple berry smoothie", "Chocolate almond butter date smoothie"];
                 document.getElementById("drink").innerHTML = drinks[(Math.floor(Math.random() * drinks.length))];
             }
         </script>
